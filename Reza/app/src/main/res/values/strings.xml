@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Reza</string>
+    <string name="Button">Ok</string>
+    <string name="userNameInputHint">Username</string>
+    <string name="passwordInputHint">Password</string>
+    <string name="Welcome">Welcome: </string>
+    <string name="Google">Google</string>
+    <string name="Email">Email</string>
+    <string name="Phone">Phone</string>
+</resources>

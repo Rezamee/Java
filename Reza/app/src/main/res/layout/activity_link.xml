@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layoutDescription="@xml/activity_link_scene"
+    tools:context=".LinkActivity">
+
+    <TextView
+        android:id="@+id/userId"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/Welcome"
+        tools:layout_editor_absoluteX="170dp"
+        tools:layout_editor_absoluteY="26dp" />
+
+    <Button
+        android:id="@+id/Google"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/Google"
+        tools:layout_editor_absoluteX="170dp"
+        tools:layout_editor_absoluteY="80dp" />
+
+    <Button
+        android:id="@+id/Email"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/Email"
+        tools:layout_editor_absoluteX="170dp"
+        tools:layout_editor_absoluteY="130dp"/>
+
+    <Button
+        android:id="@+id/Phone"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/Phone"
+        tools:layout_editor_absoluteX="170dp"
+        tools:layout_editor_absoluteY="180dp" />
+</androidx.constraintlayout.widget.ConstraintLayout>
